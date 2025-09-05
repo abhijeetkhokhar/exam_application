@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/exam_img.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeadMaster</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#4F46E5",
+              "primary-dark": "#4338CA",
+              secondary: "#10B981",
+              dark: "#1F2937",
+              light: "#F9FAFB",
+            },
+            fontFamily: {
+              sans: ["Inter var", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-gray-50">
+    <div id="root" class="min-h-screen"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

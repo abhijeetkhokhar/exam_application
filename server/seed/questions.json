@@ -1,0 +1,68 @@
+[
+  {
+    "questionText": "Which data structure offers average-case O(1) lookup time?",
+    "options": [
+      { "id": "a", "text": "Binary Search Tree" },
+      { "id": "b", "text": "Hash Table" },
+      { "id": "c", "text": "Linked List" },
+      { "id": "d", "text": "Queue" }
+    ],
+    "correctOptionId": "b",
+    "marks": 1
+  },
+  {
+    "questionText": "In HTTP, which status code best indicates that the requested resource has been permanently moved to a new URL?",
+    "options": [
+      { "id": "a", "text": "200" },
+      { "id": "b", "text": "301" },
+      { "id": "c", "text": "302" },
+      { "id": "d", "text": "404" }
+    ],
+    "correctOptionId": "b",
+    "marks": 1
+  },
+  {
+    "questionText": "Which SQL clause is used to filter groups created by GROUP BY?",
+    "options": [
+      { "id": "a", "text": "WHERE" },
+      { "id": "b", "text": "ORDER BY" },
+      { "id": "c", "text": "HAVING" },
+      { "id": "d", "text": "LIMIT" }
+    ],
+    "correctOptionId": "c",
+    "marks": 1
+  },
+  {
+    "questionText": "In JavaScript, what is the output of typeof null?",
+    "options": [
+      { "id": "a", "text": "object" },
+      { "id": "b", "text": "null" },
+      { "id": "c", "text": "undefined" },
+      { "id": "d", "text": "boolean" }
+    ],
+    "correctOptionId": "a",
+    "marks": 1
+  },
+  {
+    "questionText": "Which Big-O best describes the time complexity of binary search on a sorted array?",
+    "options": [
+      { "id": "a", "text": "O(1)" },
+      { "id": "b", "text": "O(log n)" },
+      { "id": "c", "text": "O(n)" },
+      { "id": "d", "text": "O(n log n)" }
+    ],
+    "correctOptionId": "b",
+    "marks": 1
+  },
+  {
+    "questionText": "Which of the following Git commands creates a new branch and switches to it?",
+    "options": [
+      { "id": "a", "text": "git checkout -b feature" },
+      { "id": "b", "text": "git switch feature" },
+      { "id": "c", "text": "git branch feature && git commit" },
+      { "id": "d", "text": "git init feature" }
+    ],
+    "correctOptionId": "a",
+    "marks": 1
+  }
+]
