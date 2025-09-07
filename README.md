@@ -19,6 +19,25 @@ Functional student-side exam-taking application.
 - `server/` — Express API, MongoDB models, routes, seed script
 - `client/` — React app with pages, contexts, and Tailwind CSS
 
+## API Testing
+
+You can test the API endpoints using the provided Postman collection:
+
+1. Import the Postman collection from: `postman/Exam_App_API.postman_collection.json`
+2. Set up the following environment variables in Postman:
+   - `base_url`: `http://localhost:4000` (or your deployed API URL)
+   - `access_token`: Will be automatically set after login
+
+### Available Endpoints
+
+#### Authentication
+- `POST /api/auth/register` - Register a new user
+- `POST /api/auth/login` - Login and get access token
+
+#### Exams
+- `GET /api/exams/start?limit=10` - Start a new exam (requires authentication)
+- `POST /api/exams/submit` - Submit exam answers (requires authentication)
+
 ## Setup
 
 ### Prerequisites
